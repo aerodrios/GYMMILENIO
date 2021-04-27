@@ -36,7 +36,6 @@
               "src/assets/purecounter/purecounter.js",
               "src/assets/swiper/swiper-bundle.min.js",
               "src/assets/js/main2.js"
-              
             ]
           },
           "configurations": {
@@ -110,7 +109,6 @@
               "src/assets/purecounter/purecounter.js",
               "src/assets/swiper/swiper-bundle.min.js",
               "src/assets/js/main2.js"
-              
             ]
           }
         },
@@ -138,6 +136,10 @@
               "devServerTarget": "MilenioGym:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
